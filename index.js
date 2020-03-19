@@ -3,7 +3,7 @@ const http = require('http').createServer(app)
 
 
 app.get('/', (req, res) => {
-    res.send("Node Server is running. Yay!!")
+    res.send("AbdulMuaz Node Tests...")
 })
 
 //Socket Logic
