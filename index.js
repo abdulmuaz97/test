@@ -1,3 +1,4 @@
+// JS Code
 const app = require('express')()
 const http = require('http').createServer(app)
 
@@ -16,4 +17,3 @@ socketio.on("connection", (userSocket) => {
 })
 
 http.listen(process.env.PORT)
-// tests
